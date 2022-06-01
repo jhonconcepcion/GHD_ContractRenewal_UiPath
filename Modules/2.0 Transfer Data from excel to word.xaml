@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="_2_0_Transfer_Data_from_excel_to_word" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1200,588" sap2010:WorkflowViewState.IdRef="_2_0_Transfer_Data_from_excel_to_word_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:gca="clr-namespace:GHD.ContractRenewal.Activities;assembly=GHD.ContractRenewal.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="_2_0_Transfer_Data_from_excel_to_word" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1019,522" sap2010:WorkflowViewState.IdRef="_2_0_Transfer_Data_from_excel_to_word_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:gca="clr-namespace:GHD.ContractRenewal.Activities;assembly=GHD.ContractRenewal.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="29">
       <x:String>System.Activities</x:String>
@@ -64,10 +64,9 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_2_0_Transfer_Data_from_excel_to_word" sap:VirtualizedContainerService.HintSize="242,387" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_2_0_Transfer_Data_from_excel_to_word" sap:VirtualizedContainerService.HintSize="242,296" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtInfo" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtAnnual" />
@@ -130,18 +129,10 @@
     </ui:MultipleAssign>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Read Excel Attachments workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Components\Read Excel Attachments.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_ExcelPath">
-          <Literal x:TypeArguments="x:String">C:\Users\conce\Desktop\Contract Renewal\Excel Mapping for Contract Renewal Automation.xlsx</Literal>
-        </InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtInfo">
-          <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dtInfo" />
-        </OutArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtAnnual">
-          <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dtAnnual" />
-        </OutArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtOptional">
-          <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dtOptional" />
-        </OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ExcelPath">C:\Users\conce\Desktop\Contract Renewal\Excel Mapping for Contract Renewal Automation.xlsx</InArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtInfo">[dtInfo]</OutArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtAnnual">[dtAnnual]</OutArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtOptional">[dtOptional]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -150,14 +141,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Stop&quot;]">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:MessageBox>
     <gca:GenerateContract ContinueOnError="{x:Null}" BidTemplatePath="[strBidTemplatePath]" DataTableAnnual="[dtAnnual]" DataTableInfo="[dtInfo]" DataTableOptional="[dtOptional]" DisplayName="Generate Contract" ExceptionMessage="[strExceptionMessage]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GenerateContract_1" LogDirectory="[strLogDirectory]" NonBidTemplatePath="[strNonBidTemplatePath]" OutputFolderPath="[strOutputFolderPath]" WordOutputPath="[strWordOutputPath]" />
   </Sequence>
 </Activity>

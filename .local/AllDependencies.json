@@ -48,7 +48,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.530090952": {
+      "GHD.ContractRenewal.Activities/0.1.0.601094957": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1844,7 +1844,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.530090952": {
+      "GHD.ContractRenewal.Activities/0.1.0.601094957": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3655,13 +3655,13 @@
         "lib/DocumentFormat.OpenXml.dll"
       ]
     },
-    "GHD.ContractRenewal.Activities/0.1.0.530090952": {
-      "sha512": "RYbpenBd3sWK7y3WTK1LzMtjyHZ9JEoAaw0k5q5JFQMwkPjn3/v3didw1MX3Iqkq8dGWKP0LOCm42CskYs333A==",
+    "GHD.ContractRenewal.Activities/0.1.0.601094957": {
+      "sha512": "nURyFA3BaYnKw5Vl0bgnLabsYwXbYWzR9kqErhQXB5BfJ5QDJU0tBAoqqncJXls+dfeX2WcM/WKsHQ/Ba7/73Q==",
       "type": "package",
-      "path": "ghd.contractrenewal.activities/0.1.0.530090952",
+      "path": "ghd.contractrenewal.activities/0.1.0.601094957",
       "files": [
         ".nupkg.metadata",
-        "ghd.contractrenewal.activities.0.1.0.530090952.nupkg.sha512",
+        "ghd.contractrenewal.activities.0.1.0.601094957.nupkg.sha512",
         "ghd.contractrenewal.activities.nuspec",
         "lib/net461/GHD.ContractRenewal.Activities.Design.dll",
         "lib/net461/GHD.ContractRenewal.Activities.Design.xml",
@@ -6423,7 +6423,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "GHD.ContractRenewal.Activities >= 0.1.0.530090952 <= 0.1.0.530090952",
+      "GHD.ContractRenewal.Activities >= 0.1.0.601094957 <= 0.1.0.601094957",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
       "UiPath.System.Activities >= 22.4.1 <= 22.4.1",
       "UiPath.Testing.Activities >= 22.4.2 <= 22.4.2",
@@ -6451,7 +6451,7 @@
           "GHD.ContractRenewal.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[0.1.0.530090952, 0.1.0.530090952]"
+            "version": "[0.1.0.601094957, 0.1.0.601094957]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",

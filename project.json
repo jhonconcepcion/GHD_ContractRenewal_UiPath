@@ -3,7 +3,7 @@
   "description": "Process for Contract Renewal",
   "main": "Main.xaml",
   "dependencies": {
-    "GHD.ContractRenewal.Activities": "[0.1.0.530090952]",
+    "GHD.ContractRenewal.Activities": "[0.1.0.601094957]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.System.Activities": "[22.4.1]",
     "UiPath.Testing.Activities": "[22.4.2]",
