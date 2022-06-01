@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+.local/ProjectSettings.json
+.local/db/references.db
+.settings/TemplatePropertiesSettings.json
+.local/db/references.db
+.local/ProjectSettings.json
