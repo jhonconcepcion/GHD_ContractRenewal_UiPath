@@ -48,7 +48,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.601094957": {
+      "GHD.ContractRenewal.Activities/0.1.0.602122138": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1844,7 +1844,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.601094957": {
+      "GHD.ContractRenewal.Activities/0.1.0.602122138": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3655,13 +3655,13 @@
         "lib/DocumentFormat.OpenXml.dll"
       ]
     },
-    "GHD.ContractRenewal.Activities/0.1.0.601094957": {
-      "sha512": "nURyFA3BaYnKw5Vl0bgnLabsYwXbYWzR9kqErhQXB5BfJ5QDJU0tBAoqqncJXls+dfeX2WcM/WKsHQ/Ba7/73Q==",
+    "GHD.ContractRenewal.Activities/0.1.0.602122138": {
+      "sha512": "3BYvk15RnQXLe13Ajx18Py8a36Z9pcBlvkhLomPD8M9Xd4BTEpSTQTf2Y0+H+E/YPOGpZJBDLudU/dDf9XQlcQ==",
       "type": "package",
-      "path": "ghd.contractrenewal.activities/0.1.0.601094957",
+      "path": "ghd.contractrenewal.activities/0.1.0.602122138",
       "files": [
         ".nupkg.metadata",
-        "ghd.contractrenewal.activities.0.1.0.601094957.nupkg.sha512",
+        "ghd.contractrenewal.activities.0.1.0.602122138.nupkg.sha512",
         "ghd.contractrenewal.activities.nuspec",
         "lib/net461/GHD.ContractRenewal.Activities.Design.dll",
         "lib/net461/GHD.ContractRenewal.Activities.Design.xml",
@@ -6423,7 +6423,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "GHD.ContractRenewal.Activities >= 0.1.0.601094957 <= 0.1.0.601094957",
+      "GHD.ContractRenewal.Activities >= 0.1.0.602122138 <= 0.1.0.602122138",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
       "UiPath.System.Activities >= 22.4.1 <= 22.4.1",
       "UiPath.Testing.Activities >= 22.4.2 <= 22.4.2",
@@ -6431,19 +6431,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\conce\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\glapuz\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Contract_Renewal_Process",
       "projectName": "Contract_Renewal_Process",
-      "projectPath": "C:\\Workspace\\GHD_ContractRenewal_UiPath\\.local",
-      "packagesPath": "C:\\Users\\conce\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\GHD_ContractRenewal_UiPath\\.local",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ]
+      "projectPath": "C:\\Users\\glapuz\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local",
+      "packagesPath": "C:\\Users\\glapuz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\glapuz\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local"
     },
     "frameworks": {
       "net461": {
@@ -6451,7 +6447,7 @@
           "GHD.ContractRenewal.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[0.1.0.601094957, 0.1.0.601094957]"
+            "version": "[0.1.0.602122138, 0.1.0.602122138]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
@@ -6474,7 +6470,7 @@
             "version": "[22.4.4, 22.4.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\conce\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\glapuz\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
