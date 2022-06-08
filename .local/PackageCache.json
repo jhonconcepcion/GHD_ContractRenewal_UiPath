@@ -163,13 +163,13 @@
     {
       "Package": {
         "Id": "GHD.ContractRenewal.Activities",
-        "Version": "0.1.0.602122138"
+        "Version": "0.1.0.608042906"
       },
       "Assemblies": [
-        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities/0.1.0.602122138\\lib/net461/GHD.ContractRenewal.Activities.Design.dll",
-        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities/0.1.0.602122138\\lib/net461/GHD.ContractRenewal.Activities.dll"
+        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities/0.1.0.608042906\\lib/net461/GHD.ContractRenewal.Activities.Design.dll",
+        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities/0.1.0.608042906\\lib/net461/GHD.ContractRenewal.Activities.dll"
       ],
-      "Path": "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.602122138"
+      "Path": "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.608042906"
     }
   ],
   "Conflicts": [],
@@ -210,7 +210,7 @@
     },
     "GHD.ContractRenewal.Activities": {
       "Id": "GHD.ContractRenewal.Activities",
-      "Version": "0.1.0.602122138",
+      "Version": "0.1.0.608042906",
       "Dependencies": []
     },
     "Microsoft.AspNet.SignalR.Client": {
@@ -1136,13 +1136,13 @@
     {
       "Package": {
         "Id": "GHD.ContractRenewal.Activities",
-        "Version": "0.1.0.602122138"
+        "Version": "0.1.0.608042906"
       },
       "Assemblies": [
-        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.602122138\\lib\\net461\\GHD.ContractRenewal.Activities.Design.dll",
-        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.602122138\\lib\\net461\\GHD.ContractRenewal.Activities.dll"
+        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.608042906\\lib\\net461\\GHD.ContractRenewal.Activities.Design.dll",
+        "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.608042906\\lib\\net461\\GHD.ContractRenewal.Activities.dll"
       ],
-      "Path": "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.602122138"
+      "Path": "C:\\Users\\glapuz\\.nuget\\packages\\ghd.contractrenewal.activities\\0.1.0.608042906"
     },
     {
       "Package": {
