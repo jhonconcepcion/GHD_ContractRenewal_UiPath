@@ -48,7 +48,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.608042906": {
+      "GHD.ContractRenewal.Activities/0.1.0.608061601": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1844,7 +1844,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.608042906": {
+      "GHD.ContractRenewal.Activities/0.1.0.608061601": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3655,13 +3655,13 @@
         "lib/DocumentFormat.OpenXml.dll"
       ]
     },
-    "GHD.ContractRenewal.Activities/0.1.0.608042906": {
-      "sha512": "u25z0CA1fKe5VsuLkmiIG6WnZEir3HRZDb0DYn+NdTqZvIvfqGjkEkKCu90rTpl40wUfUxn6Z/IBTeFPRYr0hQ==",
+    "GHD.ContractRenewal.Activities/0.1.0.608061601": {
+      "sha512": "yILBJ18rmebOJTK9mJsn+wAlnCWOUDyN4gjrI+joo9Taw5okDW2P+W0r8vjjKsASN3w8ymdQLIl9PU6UX5bWdA==",
       "type": "package",
-      "path": "ghd.contractrenewal.activities/0.1.0.608042906",
+      "path": "ghd.contractrenewal.activities/0.1.0.608061601",
       "files": [
         ".nupkg.metadata",
-        "ghd.contractrenewal.activities.0.1.0.608042906.nupkg.sha512",
+        "ghd.contractrenewal.activities.0.1.0.608061601.nupkg.sha512",
         "ghd.contractrenewal.activities.nuspec",
         "lib/net461/GHD.ContractRenewal.Activities.Design.dll",
         "lib/net461/GHD.ContractRenewal.Activities.Design.xml",
@@ -6423,7 +6423,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "GHD.ContractRenewal.Activities >= 0.1.0.608042906 <= 0.1.0.608042906",
+      "GHD.ContractRenewal.Activities >= 0.1.0.608042906",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
       "UiPath.System.Activities >= 22.4.1 <= 22.4.1",
       "UiPath.Testing.Activities >= 22.4.2 <= 22.4.2",
@@ -6431,15 +6431,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\glapuz\\.nuget\\packages\\": {}
+    "C:\\Users\\bot-dev8\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Contract_Renewal_Process",
       "projectName": "Contract_Renewal_Process",
-      "projectPath": "C:\\Users\\glapuz\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local",
-      "packagesPath": "C:\\Users\\glapuz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\glapuz\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local"
+      "projectPath": "C:\\Users\\bot-dev8\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local",
+      "packagesPath": "C:\\Users\\bot-dev8\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bot-dev8\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local"
     },
     "frameworks": {
       "net461": {
@@ -6447,7 +6447,7 @@
           "GHD.ContractRenewal.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[0.1.0.608042906, 0.1.0.608042906]"
+            "version": "[0.1.0.608042906, )"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
@@ -6470,7 +6470,7 @@
             "version": "[22.4.4, 22.4.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\glapuz\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\bot-dev8\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
@@ -6478,5 +6478,18 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Contract_Renewal_Process depends on GHD.ContractRenewal.Activities (>= 0.1.0.608042906) but GHD.ContractRenewal.Activities 0.1.0.608042906 was not found. An approximate best match of GHD.ContractRenewal.Activities 0.1.0.608061601 was resolved.",
+      "libraryId": "GHD.ContractRenewal.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win10-x64"
+      ]
+    }
+  ]
 }

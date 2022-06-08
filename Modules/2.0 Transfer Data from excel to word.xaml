@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>530,1096.66666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>566,942.666666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>_2_0_Transfer_Data_from_excel_to_word_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="58">
@@ -78,7 +78,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_2_0_Transfer_Data_from_excel_to_word" sap:VirtualizedContainerService.HintSize="478.666666666667,1032" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_2_0_Transfer_Data_from_excel_to_word" sap:VirtualizedContainerService.HintSize="478.666666666667,878" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtInfo" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtAnnual" />
@@ -139,26 +139,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:MultipleAssign>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Read Excel Attachments workflow" sap:VirtualizedContainerService.HintSize="436.666666666667,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Components\Read Excel Attachments.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_ExcelPath">
-          <Literal x:TypeArguments="x:String">C:\Users\glapuz\Desktop\Contract Renewal\Input files\Excel Mapping for Contract Renewal Automation.xlsx</Literal>
-        </InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtInfo" />
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtAnnual">
-          <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dtAnnual" />
-        </OutArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtOptional">
-          <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dtOptional" />
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:InvokeWorkflowFile>
     <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436.666666666667,256" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,177.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
