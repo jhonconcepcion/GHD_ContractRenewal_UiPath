@@ -6423,7 +6423,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "GHD.ContractRenewal.Activities >= 0.1.0.608042906",
+      "GHD.ContractRenewal.Activities >= 0.1.0.608061601 <= 0.1.0.608061601",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
       "UiPath.System.Activities >= 22.4.1 <= 22.4.1",
       "UiPath.Testing.Activities >= 22.4.2 <= 22.4.2",
@@ -6447,7 +6447,7 @@
           "GHD.ContractRenewal.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[0.1.0.608042906, )"
+            "version": "[0.1.0.608061601, 0.1.0.608061601]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
@@ -6478,18 +6478,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Contract_Renewal_Process depends on GHD.ContractRenewal.Activities (>= 0.1.0.608042906) but GHD.ContractRenewal.Activities 0.1.0.608042906 was not found. An approximate best match of GHD.ContractRenewal.Activities 0.1.0.608061601 was resolved.",
-      "libraryId": "GHD.ContractRenewal.Activities",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1",
-        ".NETFramework,Version=v4.6.1/win10-x64"
-      ]
-    }
-  ]
+  }
 }
