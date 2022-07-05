@@ -48,7 +48,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.608061601": {
+      "GHD.ContractRenewal.Activities/0.1.0.628165531": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1329,7 +1329,7 @@
           "lib/net461/TelemetryClient.dll": {}
         }
       },
-      "UiPath.Testing.Activities/22.4.2": {
+      "UiPath.Testing.Activities/22.4.3": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "9.0.0",
@@ -1795,6 +1795,159 @@
           "lib/net461/UiPath.Vision.Tesseract.dll": {},
           "lib/net461/UiPath.Vision.dll": {}
         }
+      },
+      "UiPath.Word.Activities/1.10.1": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Words.NET": "2.0.21359.11160"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/Interop.Domino.UiPath.dll": {},
+          "lib/net461/Microsoft.Office.Interop.Word.dll": {},
+          "lib/net461/Office.dll": {},
+          "lib/net461/UiPath.Word.Activities.Design.dll": {},
+          "lib/net461/UiPath.Word.Activities.Package.dll": {},
+          "lib/net461/UiPath.Word.Activities.dll": {},
+          "lib/net461/UiPath.Word.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Word.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Word.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Word.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Word.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Word.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Word.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Word.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Word.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Word.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Word.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Word.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Word.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Word.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Word.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Word.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Word.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Word.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Word.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Word.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Word.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Word.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Word.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Xceed.Document.NET/2.0.21359.11160": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Pdf": "[2.0.21359.11160]"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Document.NET.dll": {}
+        }
+      },
+      "Xceed.Pdf/2.0.21359.11160": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Pdf.dll": {}
+        }
+      },
+      "Xceed.Words.NET/2.0.21359.11160": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Document.NET": "[2.0.21359.11160]",
+          "Xceed.Pdf": "[2.0.21359.11160]"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Words.NET.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.6.1/win10-x64": {
@@ -1844,7 +1997,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "GHD.ContractRenewal.Activities/0.1.0.608061601": {
+      "GHD.ContractRenewal.Activities/0.1.0.628165531": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3119,7 +3272,7 @@
           "lib/net461/TelemetryClient.dll": {}
         }
       },
-      "UiPath.Testing.Activities/22.4.2": {
+      "UiPath.Testing.Activities/22.4.3": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "9.0.0",
@@ -3585,6 +3738,159 @@
           "lib/net461/UiPath.Vision.Tesseract.dll": {},
           "lib/net461/UiPath.Vision.dll": {}
         }
+      },
+      "UiPath.Word.Activities/1.10.1": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Words.NET": "2.0.21359.11160"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/Interop.Domino.UiPath.dll": {},
+          "lib/net461/Microsoft.Office.Interop.Word.dll": {},
+          "lib/net461/Office.dll": {},
+          "lib/net461/UiPath.Word.Activities.Design.dll": {},
+          "lib/net461/UiPath.Word.Activities.Package.dll": {},
+          "lib/net461/UiPath.Word.Activities.dll": {},
+          "lib/net461/UiPath.Word.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Word.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Word.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Word.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Word.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Word.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Word.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Word.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Word.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Word.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Word.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Word.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Word.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Word.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Word.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Word.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Word.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Word.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Word.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Word.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Word.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Word.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Word.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Word.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Xceed.Document.NET/2.0.21359.11160": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Pdf": "[2.0.21359.11160]"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Document.NET.dll": {}
+        }
+      },
+      "Xceed.Pdf/2.0.21359.11160": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Pdf.dll": {}
+        }
+      },
+      "Xceed.Words.NET/2.0.21359.11160": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Document.NET": "[2.0.21359.11160]",
+          "Xceed.Pdf": "[2.0.21359.11160]"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Words.NET.dll": {}
+        }
       }
     }
   },
@@ -3655,13 +3961,13 @@
         "lib/DocumentFormat.OpenXml.dll"
       ]
     },
-    "GHD.ContractRenewal.Activities/0.1.0.608061601": {
-      "sha512": "yILBJ18rmebOJTK9mJsn+wAlnCWOUDyN4gjrI+joo9Taw5okDW2P+W0r8vjjKsASN3w8ymdQLIl9PU6UX5bWdA==",
+    "GHD.ContractRenewal.Activities/0.1.0.628165531": {
+      "sha512": "qrZB50wwN7+HJh2DDRdOcfAlihEOg6kXl1hSBahfIAMBv/FT3QWnOhs+GqulEzhE8FGdh+KITGOnjJkTgz1gfw==",
       "type": "package",
-      "path": "ghd.contractrenewal.activities/0.1.0.608061601",
+      "path": "ghd.contractrenewal.activities/0.1.0.628165531",
       "files": [
         ".nupkg.metadata",
-        "ghd.contractrenewal.activities.0.1.0.608061601.nupkg.sha512",
+        "ghd.contractrenewal.activities.0.1.0.628165531.nupkg.sha512",
         "ghd.contractrenewal.activities.nuspec",
         "lib/net461/GHD.ContractRenewal.Activities.Design.dll",
         "lib/net461/GHD.ContractRenewal.Activities.Design.xml",
@@ -5810,10 +6116,10 @@
         "uipath.telemetry.client.nuspec"
       ]
     },
-    "UiPath.Testing.Activities/22.4.2": {
-      "sha512": "UZtLp5zr7l6f9Zrtei7Tgl2xSFniYytuCWZwmEI+lUEytIxukJhNfJ5dlAMqP93UfUN75sTwZt6Hd6Jh1jLlUw==",
+    "UiPath.Testing.Activities/22.4.3": {
+      "sha512": "tthoIjVR/z0FZw/noQj4JPqaKL30kwofH71Gsb4ZosA5+2eJ0AoUstnhNKPZMvJK89NQ0pke5AbCkt9BJx/QAA==",
       "type": "package",
-      "path": "uipath.testing.activities/22.4.2",
+      "path": "uipath.testing.activities/22.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5916,7 +6222,7 @@
         "lib/net5.0/tr/UiPath.Testing.RulesLibrary.resources.dll",
         "lib/net5.0/zh-CN/UiPath.Testing.Activities.resources.dll",
         "lib/net5.0/zh-CN/UiPath.Testing.RulesLibrary.resources.dll",
-        "uipath.testing.activities.22.4.2.nupkg.sha512",
+        "uipath.testing.activities.22.4.3.nupkg.sha512",
         "uipath.testing.activities.nuspec"
       ]
     },
@@ -6418,20 +6724,191 @@
         "uipath.vision.3.3.0.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
+    },
+    "UiPath.Word.Activities/1.10.1": {
+      "sha512": "06Tfb3x42cdeaveHRAAyYrFmuI8hZ+S2QMxL/Y7lalzM3ZDmGSWspkyRRcvIcZDzeoKXJR/SlmgyEkaubG1D7Q==",
+      "type": "package",
+      "path": "uipath.word.activities/1.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Interop.Domino.UiPath.dll",
+        "lib/net461/Microsoft.Office.Interop.Word.dll",
+        "lib/net461/Office.dll",
+        "lib/net461/UiPath.Word.Activities.Design.dll",
+        "lib/net461/UiPath.Word.Activities.Package.dll",
+        "lib/net461/UiPath.Word.Activities.dll",
+        "lib/net461/UiPath.Word.dll",
+        "lib/net461/de/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Word.Activities.resources.dll",
+        "lib/net461/de/UiPath.Word.resources.dll",
+        "lib/net461/es-MX/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Word.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Word.resources.dll",
+        "lib/net461/es/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Word.Activities.resources.dll",
+        "lib/net461/es/UiPath.Word.resources.dll",
+        "lib/net461/fr/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Word.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Word.resources.dll",
+        "lib/net461/ja/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Word.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Word.resources.dll",
+        "lib/net461/ko/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Word.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Word.resources.dll",
+        "lib/net461/pt-BR/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Word.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Word.resources.dll",
+        "lib/net461/pt/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Word.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Word.resources.dll",
+        "lib/net461/ru/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Word.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Word.resources.dll",
+        "lib/net461/tr/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Word.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Word.resources.dll",
+        "lib/net461/zh-CN/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Word.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/Interop.Domino.UiPath.dll",
+        "lib/net5.0-windows7.0/Microsoft.Office.Interop.Word.dll",
+        "lib/net5.0-windows7.0/Office.dll",
+        "lib/net5.0-windows7.0/UiPath.Word.Activities.Design.dll",
+        "lib/net5.0-windows7.0/UiPath.Word.Activities.Package.dll",
+        "lib/net5.0-windows7.0/UiPath.Word.Activities.dll",
+        "lib/net5.0-windows7.0/UiPath.Word.dll",
+        "lib/net5.0-windows7.0/de/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/de/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/de/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/es-MX/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/es-MX/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/es-MX/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/es/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/es/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/es/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/fr/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/fr/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/fr/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/ja/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/ja/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/ja/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/ko/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/ko/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/ko/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/pt-BR/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/pt-BR/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/pt-BR/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/pt/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/pt/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/pt/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/ru/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/ru/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/ru/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/tr/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/tr/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/tr/UiPath.Word.resources.dll",
+        "lib/net5.0-windows7.0/zh-CN/UiPath.Word.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/zh-CN/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0-windows7.0/zh-CN/UiPath.Word.resources.dll",
+        "lib/net5.0/UiPath.Word.Activities.Package.dll",
+        "lib/net5.0/UiPath.Word.Activities.dll",
+        "lib/net5.0/UiPath.Word.dll",
+        "lib/net5.0/de/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/de/UiPath.Word.resources.dll",
+        "lib/net5.0/es-MX/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/es-MX/UiPath.Word.resources.dll",
+        "lib/net5.0/es/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/es/UiPath.Word.resources.dll",
+        "lib/net5.0/fr/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/fr/UiPath.Word.resources.dll",
+        "lib/net5.0/ja/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/ja/UiPath.Word.resources.dll",
+        "lib/net5.0/ko/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/ko/UiPath.Word.resources.dll",
+        "lib/net5.0/pt-BR/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/pt-BR/UiPath.Word.resources.dll",
+        "lib/net5.0/pt/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/pt/UiPath.Word.resources.dll",
+        "lib/net5.0/ru/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/ru/UiPath.Word.resources.dll",
+        "lib/net5.0/tr/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/tr/UiPath.Word.resources.dll",
+        "lib/net5.0/zh-CN/UiPath.Word.Activities.resources.dll",
+        "lib/net5.0/zh-CN/UiPath.Word.resources.dll",
+        "uipath.word.activities.1.10.1.nupkg.sha512",
+        "uipath.word.activities.nuspec"
+      ]
+    },
+    "Xceed.Document.NET/2.0.21359.11160": {
+      "sha512": "PStVNFrwOojFVodaeTxVkoCsUjaYtD5wgLL0LK5AFlz6JFKsGF/KT6k7KEBqrMJZzcYf1XlLOL9iAritzBvwXQ==",
+      "type": "package",
+      "path": "xceed.document.net/2.0.21359.11160",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Words.png",
+        "lib/net40/Xceed.Document.NET.dll",
+        "lib/net40/Xceed.Document.NET.xml",
+        "lib/net5.0/Xceed.Document.NET5.dll",
+        "lib/net5.0/Xceed.Document.NET5.xml",
+        "lib/netstandard2.0/Xceed.Document.NETStandard.dll",
+        "lib/netstandard2.0/Xceed.Document.NETStandard.xml",
+        "xceed.document.net.2.0.21359.11160.nupkg.sha512",
+        "xceed.document.net.nuspec"
+      ]
+    },
+    "Xceed.Pdf/2.0.21359.11160": {
+      "sha512": "FA8uKYFKMb+l0OLuPSd7MmWd1ZzDxU7EBppdYQ8ddwpqkOAI3O/gnje/qaKVZWCLO9IGZGJgNyB5QNfdnzzSAg==",
+      "type": "package",
+      "path": "xceed.pdf/2.0.21359.11160",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/PDFCreator.png",
+        "lib/net40/Xceed.Pdf.dll",
+        "lib/net5.0/Xceed.PDF.NET5.dll",
+        "lib/netstandard2.0/Xceed.PDF.NETStandard.dll",
+        "xceed.pdf.2.0.21359.11160.nupkg.sha512",
+        "xceed.pdf.nuspec"
+      ]
+    },
+    "Xceed.Words.NET/2.0.21359.11160": {
+      "sha512": "L8ApSeBBRIhXtR/k+bxidnJ1Axn6YHEmIq7wv2B8PJ2Yq2n9Gx3JonqfGGO2saUpKTGOYYom9IdCgH+K9fzfyA==",
+      "type": "package",
+      "path": "xceed.words.net/2.0.21359.11160",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "lib/net40/Xceed.Words.NET.dll",
+        "lib/net40/Xceed.Words.NET.xml",
+        "lib/net5.0/Xceed.Words.NET5.dll",
+        "lib/net5.0/Xceed.Words.NET5.xml",
+        "lib/netstandard2.0/Xceed.Words.NETStandard.dll",
+        "lib/netstandard2.0/Xceed.Words.NETStandard.xml",
+        "xceed.words.net.2.0.21359.11160.nupkg.sha512",
+        "xceed.words.net.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "GHD.ContractRenewal.Activities >= 0.1.0.608061601 <= 0.1.0.608061601",
+      "GHD.ContractRenewal.Activities >= 0.1.0.628165531 <= 0.1.0.628165531",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
       "UiPath.System.Activities >= 22.4.1 <= 22.4.1",
-      "UiPath.Testing.Activities >= 22.4.2 <= 22.4.2",
-      "UiPath.UIAutomation.Activities >= 22.4.4 <= 22.4.4"
+      "UiPath.Testing.Activities >= 22.4.3 <= 22.4.3",
+      "UiPath.UIAutomation.Activities >= 22.4.4 <= 22.4.4",
+      "UiPath.Word.Activities >= 1.10.1 <= 1.10.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bot-dev8\\.nuget\\packages\\": {}
+    "C:\\Users\\bot-dev8\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "restore": {
@@ -6439,7 +6916,10 @@
       "projectName": "Contract_Renewal_Process",
       "projectPath": "C:\\Users\\bot-dev8\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local",
       "packagesPath": "C:\\Users\\bot-dev8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bot-dev8\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local"
+      "outputPath": "C:\\Users\\bot-dev8\\Documents\\UiPath\\GHD_ContractRenewal_UiPath\\.local",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ]
     },
     "frameworks": {
       "net461": {
@@ -6447,7 +6927,7 @@
           "GHD.ContractRenewal.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[0.1.0.608061601, 0.1.0.608061601]"
+            "version": "[0.1.0.628165531, 0.1.0.628165531]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
@@ -6462,12 +6942,17 @@
           "UiPath.Testing.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[22.4.2, 22.4.2]"
+            "version": "[22.4.3, 22.4.3]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
             "version": "[22.4.4, 22.4.4]"
+          },
+          "UiPath.Word.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.10.1, 1.10.1]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Users\\bot-dev8\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
